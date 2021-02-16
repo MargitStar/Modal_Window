@@ -7,8 +7,12 @@ const btnOpenModals = document.querySelectorAll('.show-modal');
 
 btnOpenModals.forEach(btn => {
   btn.addEventListener('click', function () {
-    console.log('Button clicked');
     modal.classList.remove('hidden');
     overLay.classList.remove('hidden');
   });
+});
+
+btnCloseModal.addEventListener('click', function () {
+  modal.classList.add('hidden');
+  overLay.classList.add('hidden');
 });
