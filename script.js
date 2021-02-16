@@ -17,6 +17,6 @@ btnOpenModals.forEach(btn => {
   });
 });
 
-btnCloseModal.addEventListener('click', closeModal());
+btnCloseModal.addEventListener('click', closeModal);
 
-overLay.addEventListener('click', closeModal());
+overLay.addEventListener('click', closeModal);
